@@ -5,3 +5,94 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+body {
+    font-family: 'Playfair-Display', sans-serif ;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/** Globales **/
+
+h1, h2, h3 {
+    margin: 0 0 5rem 0;
+}
+
+h1 {
+    font-family: 'Playfair-Display', sans-serif;
+    font-size: 3.8rem;
+}
+
+@media (min-width: 768px ){ 
+    h1 {
+        font-family: 'Playfair-Display', sans-serif;
+        font-size: 5rem;
+    }
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.2rem;
+}
+
+@media (min-width: 768px ){ 
+    h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 4rem;
+    }
+}
+
+h3 {
+    font-family: 'Sacramento', sans-serif;
+    font-size: 2.4rem;
+}
+
+@media (min-width: 768px ){ 
+    h3 {
+        font-family: 'Sacramento', sans-serif;
+        font-size: 3rem;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contenedor h2 {
+    text-align: center;
+}
+
+.contenedor {
+max-width: 120rem;
+margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.btn {
+    
+    background-color: #8cbc00;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out;
+    text-align: center;
+    border: none;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #769c02;
+    cursor: pointer;
+}
+@media (min-width: 768px ){ 
+    .btn  {
+        width: auto;
+    }
+}
